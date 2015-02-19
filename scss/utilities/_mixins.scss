@@ -2,6 +2,15 @@
 // Mixins
 // ==========================================================================
 
+// Box sizing
+@mixin box-sizing($value){
+    box-sizing: $value;
+    -webkit-box-sizing: $value;
+    -moz-box-sizing: $value;
+    -ms-box-sizing: $value;
+    -o-box-sizing: $value;
+}
+
 // BEM selectors
 
 @mixin e($element) {
